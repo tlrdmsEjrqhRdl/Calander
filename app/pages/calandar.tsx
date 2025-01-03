@@ -5,7 +5,9 @@ function calandar() {
   return (
     <>
         <S.Background>
-          <S.CalandarContainer></S.CalandarContainer>
+          <S.CalandarContainer>
+            <S.CalandarYear>2025</S.CalandarYear>
+          </S.CalandarContainer>
         </S.Background>
     </>
   )

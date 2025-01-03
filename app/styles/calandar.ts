@@ -17,5 +17,12 @@ export const CalandarContainer = styled.div`
     height: 100%;
     border-width: 0px 2px 2px 0px;
     border: solid black;
+    display: flex;
+    justify-content: center;
 `
 
+export const CalandarYear = styled.span`
+    color:black;
+    font-size: 40px;
+    margin-top: 20px;
+`
