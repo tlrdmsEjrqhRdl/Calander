@@ -26,3 +26,9 @@ export const CalandarYear = styled.span`
     font-size: 40px;
     margin-top: 20px;
 `
+export const backyear = styled.span`
+
+`
+export const nextyear = styled.span`
+
+`

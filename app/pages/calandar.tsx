@@ -1,12 +1,14 @@
 import React from 'react'
 import * as S from '../styles/calandar';
 
+const year = 2025;
+
 function calandar() {
   return (
     <>
         <S.Background>
           <S.CalandarContainer>
-            <S.CalandarYear>2025</S.CalandarYear>
+            <S.CalandarYear>{year}</S.CalandarYear>
           </S.CalandarContainer>
         </S.Background>
     </>
