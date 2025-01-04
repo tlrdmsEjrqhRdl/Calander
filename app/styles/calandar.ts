@@ -19,16 +19,33 @@ export const CalandarContainer = styled.div`
     border: solid black;
     display: flex;
     justify-content: center;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+`
+export const CalandarHeader = styled.div`
+    position: absolute;
+    margin-top: 20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
 `
 
 export const CalandarYear = styled.span`
     color:black;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top:10px;
 `
 export const backyear = styled.span`
-
+    color: black;
+    font-size: 44px;
+    cursor: pointer;
 `
 export const nextyear = styled.span`
+    color: black;
+    font-size: 44px;
+    cursor: pointer;
 
 `
