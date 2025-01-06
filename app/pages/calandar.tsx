@@ -7,9 +7,9 @@ const month = today.getMonth() + 1;
 
 function BeforeMonth(year: number, month: number): { year: number; month: number } {  //연도 & 달 감소소
   if (month === 1) {
-    return { year: year - 1, month: 12 }; // 이전 달이 12월이고 연도는 감소
+    return { year: year - 1, month: 12 }; // 1월달이면 그전달은 12월이고 연도는 감소
   } else {
-    return { year, month: month - 1 }; // 단순히 월만 감소
+    return { year, month: month - 1 }; // 월만 감소하게
   }
 }
 
